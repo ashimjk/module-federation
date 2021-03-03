@@ -186,8 +186,8 @@
           "builder": "ngx-build-plus:dev-server",
           "options": {
             "browserTarget": "mfe1:build",
-            "extraWebpackConfig": "projects/mfe1/webpack.config.js",
-            "port": 3001
+            "port": 3001,
+            "extraWebpackConfig": "projects/mfe1/webpack.config.js"
           },
           "configurations": {
             "production": {

@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
-    "start:shell": "ng serve shell -o",
-    "start:mfe1": "ng serve mfe1 -o",
+    "start:shell": "ng serve shell",
+    "start:mfe1": "ng serve mfe1",
     "build:shell": "ng build shell --prod",
     "build:mfe1": "ng build mfe1 --prod",
     "start": "concurrently \"npm run start:shell\" \"npm run start:mfe1\" ",
