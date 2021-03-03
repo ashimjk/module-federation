@@ -15,8 +15,7 @@ const CONFIG_ROUTES: Routes = [
   imports: [
     CommonModule,
     RouterModule.forChild(CONFIG_ROUTES)
-  ],
-  exports: [ConfigComponent]
+  ]
 })
 export class ConfigModule {
 }
